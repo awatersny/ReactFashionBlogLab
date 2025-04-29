@@ -1,7 +1,10 @@
 import React from 'react'
+import NavbarEl from './NavbarEl'
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
-    <div>Navbar</div>
+    <ul>
+      {props.navLinks.map(link => <NavbarEl link={link}/>)}
+    </ul>
   )
 }

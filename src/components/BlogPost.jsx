@@ -7,6 +7,7 @@ export default function BlogPost(props) {
       <div>{props.title}</div>
       <img src={props.image} alt={props.image} />
       <div>{props.content}</div>
+      <h5>Continue...</h5>
     </div>
   )
 }
