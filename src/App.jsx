@@ -64,6 +64,7 @@ function App() {
         navLinks={footerLinks}
         navType="footer"
       />
+      &copy;2013 Valet Industries, Inc
     </div>
   )
 }
