@@ -4,7 +4,10 @@ import NavbarEl from './NavbarEl'
 export default function Navbar(props) {
   return (
     <ul>
-      {props.navLinks.map(link => <NavbarEl link={link}/>)}
+      {props.navLinks.map(link => <NavbarEl 
+        link={link}
+        navType={props.navType}
+      />)}
     </ul>
   )
 }

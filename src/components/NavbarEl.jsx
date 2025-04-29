@@ -3,7 +3,7 @@ import React from 'react'
 export default function NavbarEl(props) {
   return (
     <li>
-      {props.link}
+      <a class={props.navType} href="#">{props.link}</a>
     </li>
   )
 }
