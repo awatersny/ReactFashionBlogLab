@@ -28,6 +28,8 @@ div {
 .date, .copyright, .header{
   color: gray;
   font-size: 25pt;
+  text-decoration: none;
+  border-bottom: 2px solid #ccc;
 }
 
 .footer, h5, .title{
