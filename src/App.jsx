@@ -41,7 +41,7 @@ function App() {
   ]
 
   return (
-    <div>
+    <div class="main">
       <Header
         className = "title"
         content = "Sartre's List"
